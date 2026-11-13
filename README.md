@@ -1,7 +1,7 @@
-Nakama Godot
-===========
+SadSha Game Backend Kit
+=======================
 
-> Godot client for Nakama server written in GDScript.
+> Godot client for the Nakama server, written in GDScript — the SadSha Game Backend Kit.
 
 [Nakama](https://github.com/heroiclabs/nakama) is an open-source server designed to power modern games and apps. Features include user accounts, chat, social, matchmaker, realtime multiplayer, and much [more](https://heroiclabs.com).
 
@@ -11,10 +11,10 @@ Full documentation is online - https://heroiclabs.com/docs
 
 ## Godot 3 & 4
 
-You're currently looking at the Godot 4 version of the Nakama client for Godot.
+You're currently looking at the Godot 4 version of the SadSha Game Backend Kit.
 
 If you are using Godot 3, you need to use the ['godot-3'
-branch](https://github.com/heroiclabs/nakama-godot/tree/godot-3) on GitHub.
+branch](https://github.com/fnjlabs-arch/nakama-godot/tree/godot-3) on GitHub.
 
 ## Getting Started
 
@@ -22,7 +22,7 @@ You'll need to setup the server and database before you can connect with the cli
 
 1. Install and run the servers. Follow these [instructions](https://heroiclabs.com/docs/nakama/getting-started/install/docker/).
 
-2. Download the client from the [releases page](https://github.com/heroiclabs/nakama-godot/releases) and import it into your project. You can also [download it from the asset repository](#asset-repository).
+2. Download the client from the [releases page](https://github.com/fnjlabs-arch/nakama-godot/releases) and import it into your project. You can also [download it from the asset repository](#asset-repository).
 
 3. Add the `Nakama.gd` singleton (in `addons/com.heroiclabs.nakama/`) as an [autoload in Godot](https://docs.godotengine.org/en/stable/getting_started/step_by_step/singletons_autoload.html).
 
@@ -362,9 +362,9 @@ To make a new release ready for distribution, simply zip the addons folder recur
 On unix systems, you can run the following command (replacing `$VERSION` with the desired version number). Remember to update the `CHANGELOG` file first.
 
 ```shell
-zip -r nakama-$VERSION.zip addons/ LICENSE CHANGELOG.md README.md
+zip -r sadsha-game-backend-kit-$VERSION.zip addons/ LICENSE CHANGELOG.md README.md
 ```
 
 ### License
 
-This project is licensed under the [Apache-2 License](https://github.com/heroiclabs/nakama-godot/blob/master/LICENSE).
+This project is licensed under the [Apache-2 License](https://github.com/fnjlabs-arch/nakama-godot/blob/master/LICENSE).
